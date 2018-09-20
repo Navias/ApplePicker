@@ -18,7 +18,7 @@ public class ApplePicker : MonoBehaviour {
         {
             GameObject tBasketGO = Instantiate<GameObject>(basketPrefab);
             Vector3 pos = Vector3.zero;
-            pos.y = basketBottomY + (basketSpacingY + i);
+            pos.y = basketBottomY + (basketSpacingY + i*1.4f);
             tBasketGO.transform.position = pos;
         }
 	}

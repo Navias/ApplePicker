@@ -5,7 +5,7 @@ using UnityEngine;
 public class Apple : MonoBehaviour
 {
 
-    public static float bottomY = -20f;
+    public static float bottomY = -9f;
 
 
     // Use this for initialization

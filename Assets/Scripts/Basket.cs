@@ -34,7 +34,7 @@ public class Basket : MonoBehaviour
     {
         GameObject collidedWith = coll.gameObject;
 
-        if (collidedWith.tag == "apple")
+        if (collidedWith.tag == "Apple")
         {
             Destroy(collidedWith);
         }

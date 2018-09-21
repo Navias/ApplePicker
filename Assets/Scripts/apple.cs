@@ -5,7 +5,7 @@ using UnityEngine;
 public class Apple : MonoBehaviour
 {
 
-    public static float bottomY = -9f;
+    public static float bottomY = -14f;
 
 
     // Use this for initialization
@@ -15,7 +15,7 @@ public class Apple : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+     public void Update()
     {
         if (transform.position.y < bottomY)
         {
@@ -28,8 +28,8 @@ public class Apple : MonoBehaviour
 
     public void AppleDestroyed()
     {
-        GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("apple");
-        foreach ( GameObject tGo in tAppleArray)
+        GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("Apple");
+        foreach (GameObject tGo in tAppleArray)
         {
             Destroy(tGo);
         }

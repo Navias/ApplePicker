@@ -39,7 +39,7 @@ public class ApplePicker : MonoBehaviour {
 
         if(basketList.Count == 0)
         {
-            SceneManager.LoadScene("_scene_1");
+            SceneManager.LoadScene("_scene_01");
         }
     }
 	// Update is called once per frame
